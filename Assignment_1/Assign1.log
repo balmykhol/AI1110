@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.28)  29 APR 2023 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.28)  29 APR 2023 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**sample_a.tex
-(./sample_a.tex
+**Assign1.tex
+(./Assign1.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -1111,8 +1111,8 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
  (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-(./sample_a.aux)
-\openout1 = `sample_a.aux'.
+(./Assign1.aux)
+\openout1 = `Assign1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 100.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
@@ -1239,9 +1239,9 @@ Package gensymb Info: Using \textohm for \ohm on input line 100.
 Package gensymb Info: Using \textmu for \micro on input line 100.
 Package hyperref Info: Link coloring OFF on input line 100.
 
-(./sample_a.out) (./sample_a.out)
+(./Assign1.out) (./Assign1.out)
 \@outlinefile=\write4
-\openout4 = `sample_a.out'.
+\openout4 = `Assign1.out'.
 
 \c@theorem=\count341
 \c@problem=\count342
@@ -1282,18 +1282,18 @@ File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 233.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
-local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./sample_a.aux)
-Package rerunfilecheck Info: File `sample_a.out' has not changed.
+local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Assign1.aux)
+Package rerunfilecheck Info: File `Assign1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  29944 strings out of 476025
- 592807 string characters out of 5790017
- 1857388 words of memory out of 5000000
+ 592790 string characters out of 5790017
+ 1860388 words of memory out of 5000000
  49766 multiletter control sequences out of 15000+600000
  587968 words of font info for 200 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,96p,1176b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,6n,96p,1175b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texliv
@@ -1301,7 +1301,7 @@ e/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on sample_a.pdf (1 page, 46104 bytes).
+Output written on Assign1.pdf (1 page, 45966 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
