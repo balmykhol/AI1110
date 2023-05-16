@@ -1,6 +1,6 @@
 \let\negmedspace\undefined
 \let\negthickspace\undefined
-\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
 %\documentclass[conference]{IEEEtran}
 %\IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
@@ -55,34 +55,32 @@
 %\usepackage{verbatim}
 %\usepackage{tfrupee}
 %\usepackage{stmaryrd}
-%\usetkzobj{all}
-%    \usepackage{color}                                            %%
-%    \usepackage{array}                                            %%
-%    \usepackage{longtable}                                        %%
-%    \usepackage{calc}                                             %%
-%    \usepackage{multirow}                                         %%
-%    \usepackage{hhline}                                           %%
-%    \usepackage{ifthen}                                           %%
-  %optionally (for landscape tables embedded in another document): %%
-%    \usepackage{lscape}     
-%\usepackage{multicol}
-%\usepackage{chngcntr}
-%\usepackage{enumerate}
+   \usepackage{color}                                            %%
+   \usepackage{array}                                            %%
+   \usepackage{longtable}                                        %%
+   \usepackage{calc}                                             %%
+   \usepackage{multirow}                                         %%
+   \usepackage{hhline}                                           %%
+   \usepackage{ifthen}                                           %%
+   \usepackage{lscape}     
+% \usepackage{multicol}
+% \usepackage{chngcntr}
+% \usepackage{enumerate}
 
-%\usepackage{wasysym}
-%\newcounter{MYtempeqncnt}
+\usepackage{wasysym}
+\newcounter{MYtempeqncnt}
 \DeclareMathOperator*{\Res}{Res}
 %\renewcommand{\baselinestretch}{2}
 \renewcommand\thesection{\arabic{section}}
 \renewcommand\thesubsection{\thesection.\arabic{subsection}}
-\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
 
 \renewcommand\thesectiondis{\arabic{section}}
 \renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
-\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
 
 % correct bad hyphenation here
-\hyphenation{op-tical net-works semi-conduc-tor}
+
 \def\inputGnumericTable{}                                 %%
 
 \lstset{
@@ -112,11 +110,15 @@ columns=fullflexible
 %\newtheorem{defn}[thm]{Definition}
 %\newtheorem{algorithm}{Algorithm}[section]
 %\newtheorem{cor}{Corollary}
-\newcommand{\BEQA}{\begin{eqnarray}}
-\newcommand{\EEQA}{\end{eqnarray}}
+
+
 \newcommand{\define}{\stackrel{\triangle}{=}}
-\bibliographystyle{IEEEtran}
+\newcommand{\permcomb}[4][0mu]{{{}^{#3}\mkern#1#2_{#4}}}
+\newcommand{\comb}[1][-1mu]{\permcomb[#1]{C}}
+
 %\bibliographystyle{ieeetr}
+
+
 \providecommand{\mbf}{\mathbf}
 \providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
 \providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
@@ -131,22 +133,21 @@ columns=fullflexible
 \providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
-\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
-\providecommand{\abs}[1]{\left\vert#1\right\vert}
+
+
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
-\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+
 %\providecommand{\norm}[1]{\lVert#1\rVert}
 \providecommand{\mtx}[1]{\mathbf{#1}}
-\providecommand{\mean}[1]{E\left[ #1 \right]}
+
 \providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
 %\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
 \providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
 \newcommand{\solution}{\noindent \textbf{Solution: }}
-\newcommand{\cosec}{\,\text{cosec}\,}
+
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
-\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
-\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+
 %\numberwithin{equation}{section}
 %\numberwithin{equation}{subsection}
 %\numberwithin{problem}{section}
@@ -154,25 +155,31 @@ columns=fullflexible
 %\makeatletter
 %\@addtoreset{figure}{problem}
 %\makeatother
+
 %\let\StandardTheFigure\thefigure
 \let\vec\mathbf
 %\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
 %\renewcommand{\thefigure}{\theproblem}
 %\setlist[enumerate,1]{before=\renewcommand\theequation{\theenumi.\arabic{equation}}
 %\counterwithin{equation}{enumi}
+
+
 %\renewcommand{\theequation}{\arabic{subsection}.\arabic{equation}}
+
 %\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
 %     \def\rightbox#1{\makebox[0in][r]{#1}}
 %     \def\centbox#1{\makebox[0in]{#1}}
 %     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
 %     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
-\vspace{3cm}
+
+
+
 \title{
 %	\logo{
 AI1110 Assignment 2 in \LaTeX
 %	}
 }
-\author{ Chakka Surya Saketh$^{*}$% <-this % stops a space
+\author{ Chakka Surya Saketh$^{*}$\\AI22BTECH11005% <-this % stops a space
 	\thanks{*The student is with the Department
 		of Artificial Intelligence, Indian Institute of Technology, Hyderabad
 		502285 India e-mail: ai22btech11005@iith.ac.in.}
@@ -261,7 +268,12 @@ AI1110 Assignment 2 in \LaTeX
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
 %%%%%%%%%%%%%%%%%%%%%  This is my Assignment %%%%%%%%%%%%%%%%%%%%%
-\raggedright\textbf{10.15.1.9: Question} A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is taken out of the box at random. What is the probability that the marble taken out will be (i) red ? (ii) white ? (iii) not green?
+\raggedright\textbf{10.15.1.9: Question} A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is taken out of the box at random. What is the probability that the marble taken out will be \\
+\begin{enumerate}[label=(\roman*)]
+    \item red ? 
+    \item white ? 
+    \item not green?
+\end{enumerate}
 
 \textbf{Solution}:\\
 Given :\\
@@ -269,22 +281,25 @@ Number of red marbles = R = 5\\
 Number of white marbles = W = 8\\
 Number of green marbles = G = 4\\
 Total number of marbles = T = $5 + 8 + 4$ = 17\\
-(i)\\
+Where r,g,w respectively represents the number of red, green and white marbles within n.\\
 \begin{align}
-\pr{\text{marble taken out is red}} &= \frac{R}{T}\\
-&= \frac{5}{17}
+    \pr{r,w,g} &= \frac{\comb{R}{r}\comb{W}{w}\comb{G}{g}}{\comb{R+W+G}{r+w+g}}
 \end{align}
-\\(ii) \\
+\begin{enumerate}[label=(\roman*)]
+\item Probability that the marble taken out is red
 \begin{align}
-\pr{\text{marble taken out is white}} &= \frac{W}{T}\\
-&=\frac{8}{17}
+\pr{1,0,0} &= \frac{\comb{5}{1}\comb{8}{0}\comb{4}{0}}{\comb{17}{1}} \\
+	 &= \frac{5}{17} \approx 0.2941
 \end{align}
-\\(iii)\\
+\item Probability that the marble taken out is white
 \begin{align}
-\pr{\text{marble taken out is not green}} &= \pr{\text{marble taken out is green}}^{\prime}\\
-&= 1 - \pr{\text{marble taken out is green}}\\
-&= 1 - \frac{G}{T}\\
-&= 1 - \frac{4}{17}\\
-&= \frac{13}{17}
+\pr{0,1,0} &= \frac{\comb{5}{0}\comb{8}{1}\comb{4}{0}}{\comb{17}{1}} \\
+	&= \frac{8}{17} \approx 0.4706
 \end{align}
+\item Probability that the marble taken out is not green
+\begin{align}
+1 - \pr{0,0,1} &= 1- \frac{\comb{5}{0}\comb{8}{0}\comb{4}{1}}{\comb{17}{1}} \\
+	  &= 1 - \frac{4}{17} = \frac{13}{17} \approx 0.7647
+\end{align}
+\end{enumerate}
 \end{document}
