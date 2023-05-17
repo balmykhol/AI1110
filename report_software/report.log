@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.28)  18 MAY 2023 01:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.28)  18 MAY 2023 02:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1281,31 +1281,37 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
-/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)
+<img.jpg, id=27, 3751.01375pt x 2298.5875pt>
+File: img.jpg Graphic file (type jpg)
+<use img.jpg>
+Package pdftex.def Info: img.jpg  used on input line 300.
+(pdftex.def)             Requested size: 252.0pt x 154.39388pt.
+ [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
+local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-] (./report.aux)
+ <./img.jpg>] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 843294692DE09AC8653CC6475BDF0294;480.
  ) 
 Here is how much of TeX's memory you used:
- 29941 strings out of 476025
- 592622 string characters out of 5790017
- 1864388 words of memory out of 5000000
- 49758 multiletter control sequences out of 15000+600000
- 566764 words of font info for 142 fonts, out of 8000000 for 9000
+ 29955 strings out of 476025
+ 592754 string characters out of 5790017
+ 1865388 words of memory out of 5000000
+ 49766 multiletter control sequences out of 15000+600000
+ 568080 words of font info for 144 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,96p,1174b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,96p,1174b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (1 page, 32707 bytes).
+Output written on report.pdf (1 page, 2026908 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
