@@ -176,7 +176,7 @@ columns=fullflexible
 
 \title{
 %	\logo{
-AI1110 Assignment 23 in \LaTeX
+AI1110 Assignment 3 in \LaTeX
 %	}
 }
 \author{ Chakka Surya Saketh\\AI22BTECH11005% <-this % stops a space
@@ -270,12 +270,15 @@ AI1110 Assignment 23 in \LaTeX
 
 \textbf{Solution}:\\
 \begin{align} 
-	X &\sim \text{Bin}(n,p),\,\\
-p &= \frac{5}{6},\,\\
-n &= 10
+	X &\sim \text{Bin}(n,p),\,
 \end{align}	
-\\where $p$ is the probability of a person knocking down a hurdle and $n$ is the number of hurdles\\
-The desired probability is \\
+\begin{table}[h]
+ \centering
+  \input{table1.tex}
+  \caption{Parameters}
+  \label{tab:Table 1}
+\end{table}
+
 Let i be the number of hurdles he knocks down.\\
 \begin{align}
 \therefore\pr{X = i} &= {\comb{n}{i}}p^i(1-p)^{n-i}\\
